@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: cobol-pod
+  labels:
+    app: cobol
+    tier: dev
+spec:  
+  containers:
+    - image: kamalpsoni/cobol-helloworld:1
+      name: cobol-helloworld
+      imagePullPolicy: Always
+ 
+
+      
